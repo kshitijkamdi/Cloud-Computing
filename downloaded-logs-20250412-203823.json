@@ -1,0 +1,4110 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "CreateProject",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "request": {
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.CreateProjectRequest",
+        "project": {
+          "createTime": "2025-04-12T04:28:01.719689Z",
+          "projectId": "fluid-isotope-456604-r4",
+          "projectNumber": "250179136404",
+          "lifecycleState": "ACTIVE",
+          "name": "My First Project"
+        }
+      }
+    },
+    "insertId": "auexw8dpc12",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T04:28:02.158230Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T04:28:02.407719639Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com"
+    },
+    "insertId": "sv4orne1in5m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "fluid-isotope-456604-r4",
+        "service": ""
+      }
+    },
+    "timestamp": "2025-04-12T04:28:03.808196Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-19c88fa5-8aa5-47c4-9996-122e0d2e9288",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T04:28:05.218174629Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "vx07z0dlurh",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T04:28:03.808196Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-19c88fa5-8aa5-47c4-9996-122e0d2e9288",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T04:28:04.910489516Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acat.p2-250179136404-19c88fa5-8aa5-47c4-9996-122e0d2e9288"
+    },
+    "insertId": "9rvtv0dlbtv",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T04:28:04.304284Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T04:28:05.305670184Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acat.p2-250179136404-19c88fa5-8aa5-47c4-9996-122e0d2e9288"
+    },
+    "insertId": "vx07z0dluro",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T04:28:05.808363Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T04:28:06.808155253Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/250179136404/services/cloudapis.googleapis.com",
+          "config": {
+            "name": "cloudapis.googleapis.com",
+            "title": "Google Cloud APIs"
+          },
+          "state": "ENABLED",
+          "parent": "projects/250179136404"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "rhjlble1hf98",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-04-12T04:28:06.498709452Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-19c88fa5-8aa5-47c4-9996-122e0d2e9288",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T04:28:06.498709452Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:1024:88f5:8000:0:0:0",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/fluid-isotope-456604-r4/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "cloudapis.googleapis.com",
+          "analyticshub.googleapis.com",
+          "bigquery.googleapis.com",
+          "bigqueryconnection.googleapis.com",
+          "bigquerydatapolicy.googleapis.com",
+          "bigquerymigration.googleapis.com",
+          "bigqueryreservation.googleapis.com",
+          "bigquerystorage.googleapis.com",
+          "cloudtrace.googleapis.com",
+          "dataform.googleapis.com",
+          "dataplex.googleapis.com",
+          "datastore.googleapis.com",
+          "logging.googleapis.com",
+          "monitoring.googleapis.com",
+          "servicemanagement.googleapis.com",
+          "serviceusage.googleapis.com",
+          "sql-component.googleapis.com",
+          "storage-api.googleapis.com",
+          "storage-component.googleapis.com",
+          "storage.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "rhjlble1hf9a",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T04:28:06.498709452Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-19c88fa5-8aa5-47c4-9996-122e0d2e9288",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T04:28:06.498709452Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudbilling.googleapis.com",
+      "methodName": "AssignResourceToBillingAccount",
+      "authorizationInfo": [
+        {
+          "resource": "billingAccounts/013A3D-316C96-EE2C6A",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.createBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "billingAccounts/013A3D-316C96-EE2C6A",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.deleteBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "request": {
+        "billingAccountName": "billingAccounts/013A3D-316C96-EE2C6A",
+        "@type": "type.googleapis.com/google.internal.cloudbilling.billingaccount.v1.AssignResourceToBillingAccountRequest",
+        "resourceName": "projects/fluid-isotope-456604-r4"
+      }
+    },
+    "insertId": "5li3fnci2s",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:22:02.635800Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:22:04.010183826Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/compute.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/compute.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com"
+    },
+    "insertId": "-luvfrme1pcc8",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:02.752426Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:26:03.707206059Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/compute.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/compute.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com"
+      }
+    },
+    "insertId": "1gi3qsodo7ng",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:02.752426Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:26:03.847447714Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "rj81gne18a58",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:03.270972Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:03.545798439Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {},
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {
+          "time": "2025-04-12T14:26:03.574797168Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.admin.v1.CreateServiceAccount",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "iam.serviceAccounts.create",
+          "granted": true,
+          "resourceAttributes": {
+            "type": "iam.googleapis.com/ServiceAccount"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.admin.v1.CreateServiceAccountRequest",
+        "name": "projects/fluid-isotope-456604-r4",
+        "account_id": "service-250179136404",
+        "service_account": {
+          "display_name": "Compute Engine default service account",
+          "email": "250179136404-compute@developer.gserviceaccount.com"
+        }
+      },
+      "response": {
+        "email": "250179136404-compute@developer.gserviceaccount.com",
+        "name": "projects/fluid-isotope-456604-r4/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+        "@type": "type.googleapis.com/google.iam.admin.v1.ServiceAccount",
+        "project_id": "fluid-isotope-456604-r4",
+        "unique_id": "105989570725365267666",
+        "etag": "MDEwMjE5MjA=",
+        "oauth2_client_id": "105989570725365267666",
+        "display_name": "Compute Engine default service account"
+      }
+    },
+    "insertId": "sjije2sc6y",
+    "resource": {
+      "type": "service_account",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "unique_id": "105989570725365267666",
+        "email_id": "250179136404-compute@developer.gserviceaccount.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:03.557849983Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:04.559449980Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/editor",
+              "member": "serviceAccount:250179136404@cloudservices.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "250179136404",
+        "policy": {
+          "bindings": [
+            {
+              "role": "roles/owner",
+              "members": [
+                "user:k16014505@gmail.com"
+              ]
+            },
+            {
+              "role": "roles/editor",
+              "members": [
+                "serviceAccountId:109533913295597776443"
+              ]
+            }
+          ],
+          "etag": "BwYyjT6QRIg="
+        },
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "etag": "BwYylZlXuok=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:250179136404@cloudservices.gserviceaccount.com"
+            ],
+            "role": "roles/editor"
+          },
+          {
+            "members": [
+              "user:k16014505@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "ilmasgek96f8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:04.030417Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:05.441378587Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Exception calling IAM: Service account 281485576129412 does not exist."
+      },
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "user:k16014505@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:116612698629123223389"
+              ],
+              "role": "roles/compute.serviceAgent"
+            }
+          ],
+          "etag": "BwYyjT6QRIg="
+        },
+        "resource": "250179136404"
+      }
+    },
+    "insertId": "i21472elf3ni",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:04.033667Z",
+    "severity": "ERROR",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:05.091775835Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 10,
+        "message": "Exception calling IAM: There were concurrent policy changes. Please retry the whole read-modify-write with exponential backoff."
+      },
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "250179136404",
+        "policy": {
+          "etag": "BwYyjT6QRIg=",
+          "bindings": [
+            {
+              "members": [
+                "user:k16014505@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "role": "roles/editor",
+              "members": [
+                "serviceAccountId:105989570725365267666"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "insertId": "-yo0n1jexmdx2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:04.139099Z",
+    "severity": "ERROR",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:05.561075783Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/compute.serviceAgent",
+              "member": "serviceAccount:service-250179136404@compute-system.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "250179136404",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:250179136404@cloudservices.gserviceaccount.com"
+              ],
+              "role": "roles/editor"
+            },
+            {
+              "members": [
+                "user:k16014505@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "role": "roles/compute.serviceAgent",
+              "members": [
+                "serviceAccountId:116612698629123223389"
+              ]
+            }
+          ],
+          "etag": "BwYylZlXuok="
+        },
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "etag": "BwYylZlkc8c=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-250179136404@compute-system.iam.gserviceaccount.com"
+            ],
+            "role": "roles/compute.serviceAgent"
+          },
+          {
+            "role": "roles/editor",
+            "members": [
+              "serviceAccount:250179136404@cloudservices.gserviceaccount.com"
+            ]
+          },
+          {
+            "members": [
+              "user:k16014505@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "ctkhuke7do1y",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:04.928138Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:06.184841946Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fluid-isotope-456604-r4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/editor",
+              "member": "serviceAccount:250179136404-compute@developer.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "250179136404",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-250179136404@compute-system.iam.gserviceaccount.com"
+              ],
+              "role": "roles/compute.serviceAgent"
+            },
+            {
+              "members": [
+                "serviceAccount:250179136404@cloudservices.gserviceaccount.com",
+                "serviceAccountId:105989570725365267666"
+              ],
+              "role": "roles/editor"
+            },
+            {
+              "members": [
+                "user:k16014505@gmail.com"
+              ],
+              "role": "roles/owner"
+            }
+          ],
+          "etag": "BwYylZlkc8c="
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYylZlufpw=",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-250179136404@compute-system.iam.gserviceaccount.com"
+            ],
+            "role": "roles/compute.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:250179136404@cloudservices.gserviceaccount.com",
+              "serviceAccount:250179136404-compute@developer.gserviceaccount.com"
+            ],
+            "role": "roles/editor"
+          },
+          {
+            "members": [
+              "user:k16014505@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "gzfbtmf17p88i",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:05.530297Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:06.362532895Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "1pwytfae171kj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:06.932440Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:07.941744977Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "6escgae16ed3",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:10.495991Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:11.713588752Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "vms0pxdmuae",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:14.195910Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:15.134654125Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "6escgae16edi",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:17.852206Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:18.613222073Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "o5kebkdtknp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:21.556173Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:22.026483954Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "vms0pxdmub0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:25.215098Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:26.203172648Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "10mseibdvpss",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:28.860313Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:29.113148311Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "1f48ndze13jq6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:32.530825Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:33.109949021Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "1pwytfae171md",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:36.209828Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:37.008655441Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "vms0pxdmubw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:39.847252Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:40.418602193Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "o5kebkdtkoo",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:43.496554Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:44.026509270Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "rj81gne18a7z",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:47.146908Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:47.556228117Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "1kwp8hsdga3l",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:50.801603Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:51.762181363Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "v3ebamdndgx",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:54.407073Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:55.115015301Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "6escgae16efm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:26:58.063109Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:26:58.616751053Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "10mseibdvpud",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:27:01.707341Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:27:02.111178277Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/compute.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/compute.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com",
+      "request": {
+        "name": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/250179136404/services/compute.googleapis.com",
+          "config": {
+            "name": "compute.googleapis.com",
+            "title": "Compute Engine API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/250179136404"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "sv4orne1nvkw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-04-12T14:27:03.518211703Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:27:03.518211703Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/compute.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/compute.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com",
+      "request": {
+        "name": "projects/fluid-isotope-456604-r4/services/compute.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "compute.googleapis.com",
+          "oslogin.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "sv4orne1nvky",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:27:03.518211703Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:27:03.518211703Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acf.p2-250179136404-e89d05f1-5f6a-4e89-84c1-342a7bfafea1"
+    },
+    "insertId": "nlm9mcdtxtc",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:27:05.346848Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:27:06.351210235Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/osconfig.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/osconfig.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/250179136404/services/osconfig.googleapis.com"
+    },
+    "insertId": "-cqnqi2e24upq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:31.125743Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-d367aa83-c2a0-4d30-bf1d-37ff840134fe",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:32:31.955867604Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/osconfig.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/osconfig.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/250179136404/services/osconfig.googleapis.com",
+      "request": {
+        "name": "projects/250179136404/services/osconfig.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "1pmbg2adwb3n",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:31.125743Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-d367aa83-c2a0-4d30-bf1d-37ff840134fe",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:32:32.362586616Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T14:32:35.516159Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.instances.insert",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.create",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+          "permission": "compute.disks.create",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+            "type": "compute.disks"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/regions/us-central1/subnetworks/default",
+          "permission": "compute.subnetworks.use",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/regions/us-central1/subnetworks/default",
+            "type": "compute.subnetworks"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/regions/us-central1/subnetworks/default",
+          "permission": "compute.subnetworks.useExternalIp",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/regions/us-central1/subnetworks/default",
+            "type": "compute.subnetworks"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setLabels",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setServiceAccount",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "labels": [
+          {
+            "key": "goog-ops-agent-policy",
+            "value": "v2-x86-template-1-4-0"
+          }
+        ],
+        "description": "",
+        "displayDevice": {
+          "enableDisplay": false
+        },
+        "canIpForward": false,
+        "disks": [
+          {
+            "boot": true,
+            "initializeParams": {
+              "diskSizeGb": "10",
+              "sourceImage": "projects/debian-cloud/global/images/debian-12-bookworm-v20250311",
+              "diskType": "projects/fluid-isotope-456604-r4/zones/us-central1-a/diskTypes/pd-balanced"
+            },
+            "deviceName": "instance-20250412-142939",
+            "autoDelete": true,
+            "mode": "READ_WRITE",
+            "type": "PERSISTENT"
+          }
+        ],
+        "scheduling": {
+          "provisioningModel": "STANDARD",
+          "onHostMaintenance": "MIGRATE",
+          "automaticRestart": true
+        },
+        "confidentialInstanceConfig": {
+          "enableConfidentialCompute": false
+        },
+        "keyRevocationActionType": "NONE_ON_KEY_REVOCATION",
+        "machineType": "projects/fluid-isotope-456604-r4/zones/us-central1-c/machineTypes/e2-medium",
+        "networkInterfaces": [
+          {
+            "subnetwork": "projects/fluid-isotope-456604-r4/regions/us-central1/subnetworks/default",
+            "stackType": "IPV4_ONLY",
+            "accessConfigs": [
+              {
+                "networkTier": "PREMIUM",
+                "name": "External NAT"
+              }
+            ]
+          }
+        ],
+        "shieldedInstanceConfig": {
+          "enableIntegrityMonitoring": true,
+          "enableSecureBoot": false,
+          "enableVtpm": true
+        },
+        "reservationAffinity": {
+          "consumeReservationType": "ANY_ALLOCATION"
+        },
+        "serviceAccounts": [
+          {
+            "scopes": [
+              "https://www.googleapis.com/auth/devstorage.read_only",
+              "https://www.googleapis.com/auth/logging.write",
+              "https://www.googleapis.com/auth/monitoring.write",
+              "https://www.googleapis.com/auth/service.management.readonly",
+              "https://www.googleapis.com/auth/servicecontrol",
+              "https://www.googleapis.com/auth/trace.append"
+            ],
+            "email": "250179136404-compute@developer.gserviceaccount.com"
+          }
+        ],
+        "deletionProtection": false,
+        "name": "instance-20250412-142939",
+        "@type": "type.googleapis.com/compute.instances.insert"
+      },
+      "response": {
+        "name": "operation-1744468351273-63295b0664baf-46fa2efd-c117b283",
+        "user": "k16014505@gmail.com",
+        "@type": "type.googleapis.com/operation",
+        "progress": "0",
+        "status": "PENDING",
+        "id": "57932918589736812",
+        "selfLinkWithId": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/57932918589736812",
+        "zone": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "insertTime": "2025-04-12T07:32:35.407-07:00",
+        "operationType": "insert",
+        "selfLink": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744468351273-63295b0664baf-46fa2efd-c117b283",
+        "targetLink": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "targetId": "5201802368954910608"
+      },
+      "metadata": {
+        "usedResources": {
+          "attachedDisks": [
+            {
+              "isBootDisk": true,
+              "sourceImageId": "5262496523207121315",
+              "sourceImage": "https://www.googleapis.com/compute/beta/projects/707281592825/global/images/debian-12-bookworm-v20250311"
+            }
+          ]
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "-saojsie2rh9w",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:31.326509Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "e1f146ea-db5c-4252-aa32-38361e688302"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744468351273-63295b0664baf-46fa2efd-c117b283",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:32:35.992304928Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acat.p2-250179136404-d367aa83-c2a0-4d30-bf1d-37ff840134fe"
+    },
+    "insertId": "791hwhdnp83",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:31.618869Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:32:32.609857702Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/osconfig.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/osconfig.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/250179136404/services/osconfig.googleapis.com",
+      "request": {
+        "name": "projects/250179136404/services/osconfig.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/250179136404/services/osconfig.googleapis.com",
+          "config": {
+            "name": "osconfig.googleapis.com",
+            "title": "OS Config API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/250179136404"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-qb1mnde20yoo",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:33.115261469Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-d367aa83-c2a0-4d30-bf1d-37ff840134fe",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:32:33.115261469Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404/services/osconfig.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/osconfig.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/250179136404/services/osconfig.googleapis.com",
+      "request": {
+        "name": "projects/250179136404/services/osconfig.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "osconfig.googleapis.com",
+          "compute.googleapis.com",
+          "oslogin.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "-qb1mnde20yoq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:33.115261469Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-250179136404-d367aa83-c2a0-4d30-bf1d-37ff840134fe",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:32:33.115261469Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/250179136404/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/250179136404",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/250179136404/operations/acat.p2-250179136404-d367aa83-c2a0-4d30-bf1d-37ff840134fe"
+    },
+    "insertId": "ka7sfqdtd22",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:35.290831Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:32:35.979617887Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T14:32:35.495322383Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "osconfig.googleapis.com",
+      "methodName": "google.cloud.osconfig.v1.OsConfigGlobalService.UpdateProjectBillingConfig",
+      "authorizationInfo": [
+        {
+          "resource": "projects/250179136404/locations/global/billingConfig",
+          "permission": "osconfig.projectBillingConfigs.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/250179136404/locations/global/billingConfig",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.osconfig.v1.UpdateProjectBillingConfigRequest",
+        "projectBillingConfig": {
+          "name": "projects/250179136404/locations/global/billingConfig"
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.osconfig.v1.ProjectBillingConfig"
+      }
+    },
+    "insertId": "1kw8wjrd1eof",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "osconfig.googleapis.com",
+        "method": "google.cloud.osconfig.v1.OsConfigGlobalService.UpdateProjectBillingConfig",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:35.489487403Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:32:36.272187223Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "iam.serviceAccounts.actAs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+          "permission": "iam.serviceAccounts.actAs",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+      "request": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountRequest",
+        "project_number": "250179136404",
+        "name": "250179136404-compute@developer.gserviceaccount.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountResponse",
+        "success": true
+      }
+    },
+    "insertId": "suy7kue5br0m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "iam.serviceAccounts.actAs",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:37.588079957Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:32:37.588079957Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.instances.insert",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.insert"
+      }
+    },
+    "insertId": "micnftdowou",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "project_id": "fluid-isotope-456604-r4",
+        "zone": "us-central1-c"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:56.952507Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "e1f146ea-db5c-4252-aa32-38361e688302"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744468351273-63295b0664baf-46fa2efd-c117b283",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:32:57.869918924Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T14:32:59.727810Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.resourcePolicies.insert",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+          "permission": "compute.resourcePolicies.create",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+            "type": "compute.resourcePolicies"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+      "request": {
+        "@type": "type.googleapis.com/compute.resourcePolicies.insert",
+        "snapshotSchedulePolicy": {
+          "retentionPolicy": {
+            "onSourceDiskDelete": "KEEP_AUTO_SNAPSHOTS",
+            "maxRetentionDays": "14"
+          },
+          "schedule": {
+            "dailySchedule": {
+              "startTime": "08:00",
+              "daysInCycle": "1"
+            }
+          }
+        },
+        "name": "default-schedule-1"
+      },
+      "response": {
+        "status": "RUNNING",
+        "name": "operation-1744468379560-63295b215eb95-6434b82a-846eaae6",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/regions/us-central1/operations/1038745497278859124",
+        "progress": "0",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+        "targetId": "3593623358993319796",
+        "user": "k16014505@gmail.com",
+        "startTime": "2025-04-12T07:32:59.656-07:00",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/regions/us-central1/operations/operation-1744468379560-63295b215eb95-6434b82a-846eaae6",
+        "operationType": "insert",
+        "id": "1038745497278859124",
+        "@type": "type.googleapis.com/operation",
+        "region": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/regions/us-central1",
+        "insertTime": "2025-04-12T07:32:59.653-07:00"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "8wy15depsad4",
+    "resource": {
+      "type": "gce_resource_policy",
+      "labels": {
+        "resource_policy_id": "3593623358993319796",
+        "project_id": "fluid-isotope-456604-r4",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:59.535483Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "ada24d4f-5eb5-4c69-b721-5e3e6c387dac"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744468379560-63295b215eb95-6434b82a-846eaae6",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:33:00.689994930Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.resourcePolicies.insert",
+      "resourceName": "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+      "request": {
+        "@type": "type.googleapis.com/compute.resourcePolicies.insert"
+      }
+    },
+    "insertId": "-4nojwiddaxq",
+    "resource": {
+      "type": "gce_resource_policy",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "region": "us-central1",
+        "resource_policy_id": "3593623358993319796"
+      }
+    },
+    "timestamp": "2025-04-12T14:32:59.882669Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "ada24d4f-5eb5-4c69-b721-5e3e6c387dac"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744468379560-63295b215eb95-6434b82a-846eaae6",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:33:00.356686639Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T14:33:00.683069Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.disks.addResourcePolicies",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+          "permission": "compute.disks.addResourcePolicies",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+            "type": "compute.disks"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+          "permission": "compute.resourcePolicies.use",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1",
+            "type": "compute.resourcePolicies"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.disks.addResourcePolicies",
+        "resourcePolicys": [
+          "projects/fluid-isotope-456604-r4/regions/us-central1/resourcePolicies/default-schedule-1"
+        ]
+      },
+      "response": {
+        "id": "8523257925078599539",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744468380491-63295b2241d4c-97248e7f-2e6582bf",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/8523257925078599539",
+        "user": "k16014505@gmail.com",
+        "insertTime": "2025-04-12T07:33:00.621-07:00",
+        "name": "operation-1744468380491-63295b2241d4c-97248e7f-2e6582bf",
+        "targetId": "3697564419414804334",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+        "operationType": "addResourcePolicies",
+        "zone": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "status": "RUNNING",
+        "@type": "type.googleapis.com/operation",
+        "startTime": "2025-04-12T07:33:00.650-07:00",
+        "progress": "0"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "-qm79qdeo071u",
+    "resource": {
+      "type": "gce_disk",
+      "labels": {
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4",
+        "disk_id": "3697564419414804334"
+      }
+    },
+    "timestamp": "2025-04-12T14:33:00.458179Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "3e7fcb46-699f-494d-9153-149fd3ecb96f"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744468380491-63295b2241d4c-97248e7f-2e6582bf",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:33:01.457057979Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:3162:e721:61:3193",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.disks.addResourcePolicies",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/disks/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.disks.addResourcePolicies"
+      }
+    },
+    "insertId": "-v0w46hd171i",
+    "resource": {
+      "type": "gce_disk",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "zone": "us-central1-c",
+        "disk_id": "3697564419414804334"
+      }
+    },
+    "timestamp": "2025-04-12T14:33:01.016797Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "3e7fcb46-699f-494d-9153-149fd3ecb96f"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744468380491-63295b2241d4c-97248e7f-2e6582bf",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:33:01.113132471Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T14:44:29.961155Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.setMetadata"
+      },
+      "response": {
+        "zone": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "startTime": "2025-04-12T07:44:29.929-07:00",
+        "targetId": "5201802368954910608",
+        "status": "RUNNING",
+        "progress": "0",
+        "@type": "type.googleapis.com/operation",
+        "insertTime": "2025-04-12T07:44:29.917-07:00",
+        "user": "k16014505@gmail.com",
+        "operationType": "setMetadata",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/5537910192959111842",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744469069734-63295db392177-c14dbb38-e43a7cd9",
+        "name": "operation-1744469069734-63295db392177-c14dbb38-e43a7cd9",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "id": "5537910192959111842"
+      },
+      "metadata": {
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata",
+        "instanceMetadataDelta": {
+          "addedMetadataKeys": [
+            "ssh-keys"
+          ]
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "j7ec44e3ds8e",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "instance_id": "5201802368954910608",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:44:29.776794Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "49ae8841-1ea8-4355-8f33-8d9d3410103d"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744469069734-63295db392177-c14dbb38-e43a7cd9",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:44:30.187418668Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "iam.serviceAccounts.actAs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+          "permission": "iam.serviceAccounts.actAs",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+      "request": {
+        "project_number": "250179136404",
+        "name": "250179136404-compute@developer.gserviceaccount.com",
+        "@type": "type.googleapis.com/CanActAsServiceAccountRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountResponse",
+        "success": true
+      }
+    },
+    "insertId": "fku0vye2tcmn",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "iam.serviceAccounts.actAs",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:44:30.295284963Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:44:30.295284963Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.setMetadata",
+        "Metadata Keys Added": [
+          "ssh-keys"
+        ]
+      },
+      "metadata": {
+        "instanceMetadataDelta": {
+          "addedMetadataKeys": [
+            "ssh-keys"
+          ]
+        },
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata"
+      }
+    },
+    "insertId": "-arw965dd94u",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "instance_id": "5201802368954910608",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:44:33.380403Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "49ae8841-1ea8-4355-8f33-8d9d3410103d"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744469069734-63295db392177-c14dbb38-e43a7cd9",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:44:33.747348799Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T14:44:36.452661Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.setMetadata"
+      },
+      "response": {
+        "id": "4481545097969124027",
+        "name": "operation-1744469076274-63295db9cedc1-611a662e-2feef4ed",
+        "targetId": "5201802368954910608",
+        "progress": "0",
+        "startTime": "2025-04-12T07:44:36.427-07:00",
+        "insertTime": "2025-04-12T07:44:36.419-07:00",
+        "@type": "type.googleapis.com/operation",
+        "zone": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744469076274-63295db9cedc1-611a662e-2feef4ed",
+        "operationType": "setMetadata",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "user": "k16014505@gmail.com",
+        "status": "RUNNING",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/4481545097969124027"
+      },
+      "metadata": {
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata",
+        "instanceMetadataDelta": {
+          "modifiedMetadataKeys": [
+            "ssh-keys"
+          ]
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "-cql2pee3gg7m",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:44:36.310889Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "22ad4b34-b093-48c4-8af3-e4653521c72c"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744469076274-63295db9cedc1-611a662e-2feef4ed",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T14:44:36.706559683Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "iam.serviceAccounts.actAs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+          "permission": "iam.serviceAccounts.actAs",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+      "request": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountRequest",
+        "project_number": "250179136404",
+        "name": "250179136404-compute@developer.gserviceaccount.com"
+      },
+      "response": {
+        "success": true,
+        "@type": "type.googleapis.com/CanActAsServiceAccountResponse"
+      }
+    },
+    "insertId": "i3huwme1r6o9",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "iam.serviceAccounts.actAs",
+        "service": "iam.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:44:37.407909754Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T14:44:37.407909754Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.setMetadata",
+        "Metadata Keys Modified": [
+          "ssh-keys"
+        ]
+      },
+      "metadata": {
+        "instanceMetadataDelta": {
+          "modifiedMetadataKeys": [
+            "ssh-keys"
+          ]
+        },
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata"
+      }
+    },
+    "insertId": "28az8gdh86o",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4"
+      }
+    },
+    "timestamp": "2025-04-12T14:44:40.193220Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "22ad4b34-b093-48c4-8af3-e4653521c72c"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744469076274-63295db9cedc1-611a662e-2feef4ed",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T14:44:41.133977596Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T15:02:22.921729Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.setMetadata"
+      },
+      "response": {
+        "zone": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "startTime": "2025-04-12T08:02:22.890-07:00",
+        "name": "operation-1744470142708-632961b2d69ef-58229ddd-d25b2799",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "insertTime": "2025-04-12T08:02:22.881-07:00",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744470142708-632961b2d69ef-58229ddd-d25b2799",
+        "progress": "0",
+        "@type": "type.googleapis.com/operation",
+        "user": "k16014505@gmail.com",
+        "operationType": "setMetadata",
+        "status": "RUNNING",
+        "targetId": "5201802368954910608",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/2197656801931378321",
+        "id": "2197656801931378321"
+      },
+      "metadata": {
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata",
+        "instanceMetadataDelta": {
+          "modifiedMetadataKeys": [
+            "ssh-keys"
+          ]
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "-jmvlx7e25cr4",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "project_id": "fluid-isotope-456604-r4",
+        "zone": "us-central1-c"
+      }
+    },
+    "timestamp": "2025-04-12T15:02:22.747539Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "a0a686eb-e2d8-4aa8-8429-9cf69f7e23e9"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470142708-632961b2d69ef-58229ddd-d25b2799",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T15:02:23.127686445Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "iam.serviceAccounts.actAs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+          "permission": "iam.serviceAccounts.actAs",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+      "request": {
+        "project_number": "250179136404",
+        "@type": "type.googleapis.com/CanActAsServiceAccountRequest",
+        "name": "250179136404-compute@developer.gserviceaccount.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountResponse",
+        "success": true
+      }
+    },
+    "insertId": "suy7kue5c050",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "fluid-isotope-456604-r4",
+        "method": "iam.serviceAccounts.actAs"
+      }
+    },
+    "timestamp": "2025-04-12T15:02:24.619070368Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T15:02:24.619070368Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "Metadata Keys Modified": [
+          "ssh-keys"
+        ],
+        "@type": "type.googleapis.com/compute.instances.setMetadata"
+      },
+      "metadata": {
+        "instanceMetadataDelta": {
+          "modifiedMetadataKeys": [
+            "ssh-keys"
+          ]
+        },
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata"
+      }
+    },
+    "insertId": "n22dagdbuig",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4",
+        "instance_id": "5201802368954910608"
+      }
+    },
+    "timestamp": "2025-04-12T15:02:26.465004Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "a0a686eb-e2d8-4aa8-8429-9cf69f7e23e9"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470142708-632961b2d69ef-58229ddd-d25b2799",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T15:02:26.524418550Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T15:02:29.529768Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.setMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.setMetadata"
+      },
+      "response": {
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "id": "3796419821945962090",
+        "status": "RUNNING",
+        "operationType": "setMetadata",
+        "targetId": "5201802368954910608",
+        "insertTime": "2025-04-12T08:02:29.493-07:00",
+        "name": "operation-1744470149345-632961b92b16e-f76521d6-bf425470",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744470149345-632961b92b16e-f76521d6-bf425470",
+        "@type": "type.googleapis.com/operation",
+        "zone": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/3796419821945962090",
+        "startTime": "2025-04-12T08:02:29.502-07:00",
+        "user": "k16014505@gmail.com",
+        "progress": "0"
+      },
+      "metadata": {
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata",
+        "instanceMetadataDelta": {
+          "modifiedMetadataKeys": [
+            "ssh-keys"
+          ]
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "-oe7o6ae4gfjo",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "project_id": "fluid-isotope-456604-r4",
+        "zone": "us-central1-c"
+      }
+    },
+    "timestamp": "2025-04-12T15:02:29.391108Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "bf6ec365-e639-44c2-8768-accc59fea79e"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470149345-632961b92b16e-f76521d6-bf425470",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T15:02:29.983454290Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "iam.serviceAccounts.actAs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+          "permission": "iam.serviceAccounts.actAs",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/-/serviceAccounts/250179136404-compute@developer.gserviceaccount.com",
+      "request": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountRequest",
+        "project_number": "250179136404",
+        "name": "250179136404-compute@developer.gserviceaccount.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountResponse",
+        "success": true
+      }
+    },
+    "insertId": "1l70xj8e18pd8",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "iam.serviceAccounts.actAs",
+        "project_id": "fluid-isotope-456604-r4",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2025-04-12T15:02:30.562764229Z",
+    "severity": "NOTICE",
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-04-12T15:02:30.562764229Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com",
+        "principalSubject": "user:k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.setMetadata",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "Metadata Keys Modified": [
+          "ssh-keys"
+        ],
+        "@type": "type.googleapis.com/compute.instances.setMetadata"
+      },
+      "metadata": {
+        "instanceMetadataDelta": {
+          "modifiedMetadataKeys": [
+            "ssh-keys"
+          ]
+        },
+        "@type": "type.googleapis.com/google.cloud.audit.GceInstanceAuditMetadata"
+      }
+    },
+    "insertId": "-t8t2tdif8o",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4",
+        "instance_id": "5201802368954910608"
+      }
+    },
+    "timestamp": "2025-04-12T15:02:33.467571Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "bf6ec365-e639-44c2-8768-accc59fea79e"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470149345-632961b92b16e-f76521d6-bf425470",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T15:02:34.320524882Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T15:05:03.570316Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.instances.stop",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.stop",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.stop",
+        "noGracefulShutdown": true
+      },
+      "response": {
+        "selfLinkWithId": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/7260301269608644592",
+        "user": "k16014505@gmail.com",
+        "name": "operation-1744470303274-6329624bf750a-715fee56-1e71e047",
+        "operationType": "stop",
+        "selfLink": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744470303274-6329624bf750a-715fee56-1e71e047",
+        "insertTime": "2025-04-12T08:05:03.513-07:00",
+        "status": "RUNNING",
+        "progress": "0",
+        "id": "7260301269608644592",
+        "@type": "type.googleapis.com/operation",
+        "targetId": "5201802368954910608",
+        "targetLink": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "startTime": "2025-04-12T08:05:03.538-07:00",
+        "zone": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "lezt4me2d570",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4",
+        "instance_id": "5201802368954910608"
+      }
+    },
+    "timestamp": "2025-04-12T15:05:03.324536Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "97d768a2-bf0c-4020-8604-661670cdc94a"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470303274-6329624bf750a-715fee56-1e71e047",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T15:05:04.349318141Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.instances.stop",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.stop"
+      }
+    },
+    "insertId": "-ocv7mhdhixm",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "project_id": "fluid-isotope-456604-r4",
+        "instance_id": "5201802368954910608"
+      }
+    },
+    "timestamp": "2025-04-12T15:05:49.188978Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "97d768a2-bf0c-4020-8604-661670cdc94a"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470303274-6329624bf750a-715fee56-1e71e047",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T15:05:49.824737022Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-04-12T15:06:52.351052Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.instances.delete",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+          "permission": "compute.instances.delete",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+            "type": "compute.instances"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.delete",
+        "noGracefulShutdown": true
+      },
+      "response": {
+        "@type": "type.googleapis.com/operation",
+        "insertTime": "2025-04-12T08:06:52.273-07:00",
+        "user": "k16014505@gmail.com",
+        "name": "operation-1744470412038-632962b3b1293-305d1434-fe36e83e",
+        "status": "RUNNING",
+        "id": "3232393584080011107",
+        "selfLinkWithId": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/3232393584080011107",
+        "startTime": "2025-04-12T08:06:52.298-07:00",
+        "targetLink": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+        "zone": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c",
+        "operationType": "delete",
+        "selfLink": "https://www.googleapis.com/compute/beta/projects/fluid-isotope-456604-r4/zones/us-central1-c/operations/operation-1744470412038-632962b3b1293-305d1434-fe36e83e",
+        "progress": "0",
+        "targetId": "5201802368954910608"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-c"
+        ]
+      }
+    },
+    "insertId": "-fsp2gqe5ewea",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "5201802368954910608",
+        "project_id": "fluid-isotope-456604-r4",
+        "zone": "us-central1-c"
+      }
+    },
+    "timestamp": "2025-04-12T15:06:52.082731Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "1462b5bf-be33-4273-aa83-a4a861a153c1"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470412038-632962b3b1293-305d1434-fe36e83e",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-04-12T15:06:52.844148231Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "k16014505@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2409:40c2:129e:8b70:f448:c1a4:4a3e:efee",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.instances.delete",
+      "resourceName": "projects/fluid-isotope-456604-r4/zones/us-central1-c/instances/instance-20250412-142939",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.delete"
+      }
+    },
+    "insertId": "9r29rqdat8m",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "fluid-isotope-456604-r4",
+        "zone": "us-central1-c",
+        "instance_id": "5201802368954910608"
+      }
+    },
+    "timestamp": "2025-04-12T15:06:57.907619Z",
+    "severity": "NOTICE",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "1462b5bf-be33-4273-aa83-a4a861a153c1"
+    },
+    "logName": "projects/fluid-isotope-456604-r4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1744470412038-632962b3b1293-305d1434-fe36e83e",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-04-12T15:06:58.385467425Z"
+  }
+]
